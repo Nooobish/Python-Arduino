@@ -1,0 +1,7 @@
+{
+  "port" : "/dev/ttyUSB0", //USB PORT, you can find it in Device menager or ArduinoIDE
+  "leds" : "6", //Number of leds you connected, please make sure that you start from port 2
+  "delay" : "1", //Seconds
+  "fromLowest": false, //True = Start from LED 2, False = Start from latest led (in this case 6th)
+  "fullLoadResetDelay" : "0" //Seconds after loads finish to restart
+}
